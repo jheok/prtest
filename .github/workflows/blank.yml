@@ -16,7 +16,7 @@ jobs:
         uses: actions/setup-python@v1
         with:
           python-version: 3.6.12
-          architecture: x64i
+          architecture: x64
       - name: Checkout PyTorch
         uses: actions/checkout@master
       - name: Install flake8
